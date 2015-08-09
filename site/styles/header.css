@@ -5,3 +5,90 @@
  * Copyright (c) 2015. by Way2CU, http://way2cu.com
  * Authors:Tal Reznic
  */
+
+header {
+ 	display: block;
+ 	position: fixed;
+ 	top: 0px;
+ 	left: 0px;
+ 	width: 100%;
+ 	z-index: 10000;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.8);
+ }
+
+div.menu {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1200px;
+    position: relative;
+}
+
+div.menu a.google {
+	display:inline-block;
+	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	right: 0px;
+	background-image: url(../images/google-partner.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 155px 60px;
+	width: 155px;
+	height: 60px;
+}
+
+div.menu a.logo {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	background-image: url(../images/logo-vector.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 300px 60px;
+	width: 300px;
+	height: 60px;
+}
+
+div.menu a.phone {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: absolute;
+    top: 50%;
+    margin-top: -33px;
+    left: 0px;
+    color: #405fb0;
+    text-decoration: none;
+    border: 1px solid #405fb0;
+    border-radius: 8px;
+    font-size: 1.5em;
+    transition:all 0.3s;
+}
+
+div.menu a.phone:hover {
+	background-color:#405fb0;
+	color:white; 
+}
+
+div.menu a.phone svg {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 5px;
+	width: 28px;
+	height: 28px;
+	fill: #405fb0;
+	transition:all 0.3s;
+}
+
+div.menu a.phone:hover svg {
+	fill:white;
+}
