@@ -114,7 +114,39 @@
 					template="parts/show_article_list2.xml"
 				/>		
 
-			</section>	
+			</section>
+
+			<footer>
+				<div class="footer_content">
+					<cms:module
+							name="articles"
+							action="show"
+							text_id="header_article"
+							template="parts/article.xml"
+							/>
+					<a
+						href="'tel:'.urlencode(Language::getText('phone'))"
+						cms:eval="href"
+						class="phone"
+						>
+						<cms:text constant="phone"/>
+						<svg>
+							<use
+								href="#icon-phone"
+								xlink:href="site/images/site-icons.svg#icon-phone"
+								/>
+						</svg>						
+					</a>
+					<div class="form_wrap">
+						<p><cms:text constant="form_title"/></p>
+						<cms:module
+							name="contact_form"
+							action="show"
+							text_id="contact"
+							/>
+					</div>
+				</div>
+			</footer>	
 
 		</body>
 	</html>
