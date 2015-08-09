@@ -5,6 +5,7 @@
 	<html lang="$language" cms:eval="lang">
 		<head>
 			<title><cms:text constant="site_title"/></title>
+			<cms:collection include="page_control"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
@@ -105,18 +106,13 @@
 					template="parts/gallery_group.xml"
 				/>
 
-				<div class="testimonials">
-					<cms:module
-						name="articles"
-						action="show_group"
-						text_id="testimonials"
-						template="parts/article_group.xml"
-					/>		
-						<a href="#" class="btn_next"></a>
-						<a href="#" class="btn_previous"></a>
-						
-					
-				</div>
+				
+				<cms:module
+					name="articles"
+					action="show_group"
+					text_id="testimonials"
+					template="parts/show_article_list2.xml"
+				/>		
 
 			</section>	
 
