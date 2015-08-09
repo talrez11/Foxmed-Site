@@ -51,6 +51,11 @@ Site.is_mobile = function() {
 Site.on_load = function() {
 	if (Site.is_mobile())
 		Site.mobile_menu = new Caracal.MobileMenu();
+
+	testimonial = new PageControl('div.testimonials','article')
+	testimonial.attachPreviousControl($('a.btn_previous'))
+	testimonial.attachNextControl($('a.btn_next'))
+	.setWrapAround(true);
 };
 
 
