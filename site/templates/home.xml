@@ -9,7 +9,97 @@
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
-			<h1>It works!</h1>
+			<header>
+				<cms:svg file="../images/site-icons.svg"/>
+				<div class="menu">
+						<a href="javascript:void(0)" class="google"></a>
+						<a href="url_Make('', 'home')" class="logo" cms:eval="href"></a>
+						<a
+							href="'tel:'.urlencode(Language::getText('phone'))"
+							cms:eval="href"
+							class="phone"
+							>
+							<cms:text constant="phone"/>
+							<svg>
+								<use
+									href="#icon-phone"
+									xlink:href="site/images/site-icons.svg#icon-phone"
+									/>
+							</svg>
+						</a>
+				</div>
+			</header>
+
+			<section class="top_site">
+
+					<cms:module
+						name="articles"
+						action="show"
+						text_id="header_article"
+						template="parts/article.xml"
+						/>
+					<a
+						href="'tel:'.urlencode(Language::getText('phone'))"
+						cms:eval="href"
+						class="phone"
+						>
+						<cms:text constant="phone"/>
+						<svg>
+							<use
+								href="#icon-phone"
+								xlink:href="site/images/site-icons.svg#icon-phone"
+								/>
+						</svg>						
+					</a>
+					<div class="form_wrap">
+						<p><cms:text constant="form_title"/></p>
+						<cms:module
+							name="contact_form"
+							action="show"
+							text_id="contact"
+							/>
+					</div>
+
+			</section>
+
+			<section class="clients">
+				<cms:module
+					name="gallery"
+					action="show_image_list"
+					group="clients"
+					template="parts/image.xml"
+					/>
+
+				<cms:module
+						name="articles"
+						action="show"
+						text_id="offer_article"
+						template="parts/article2.xml"
+						/>	
+			</section>
+
+			<section class="features">
+				<cms:module
+					name="articles"
+					action="show_group"
+					text_id="features"
+					template="parts/show_article_list.xml"
+				/>
+			</section>
+
+			<section class="why_us">
+				<cms:module
+					name="articles"
+					action="show"
+					text_id="why_us_article"
+					template="parts/article2.xml"
+					/>
+			</section>
+
+			<section class="table">	
+				<cms:template file="parts/table.xml"/>
+			</section>	
+
 		</body>
 	</html>
 </document>
