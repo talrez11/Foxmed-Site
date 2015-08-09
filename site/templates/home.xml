@@ -98,6 +98,26 @@
 
 			<section class="table">	
 				<cms:template file="parts/table.xml"/>
+				<cms:module
+					name="gallery"
+					action="show_group"
+					text_id="feature_images"
+					template="parts/gallery_group.xml"
+				/>
+
+				<div class="testimonials">
+					<cms:module
+						name="articles"
+						action="show_group"
+						text_id="testimonials"
+						template="parts/article_group.xml"
+					/>		
+						<a href="#" class="btn_next"></a>
+						<a href="#" class="btn_previous"></a>
+						
+					
+				</div>
+
 			</section>	
 
 		</body>
