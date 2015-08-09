@@ -1,0 +1,156 @@
+<document>
+	<table>
+		<tr>
+			<th>
+				<cms:text constant="subject"/>
+			</th>
+			<th>
+				<svg>
+					<use 
+						href="#icon-facebook" 
+						xlink:href="site/images/site-icons.svg#icon-facebook" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>
+				<cms:text constant="facebook"/>
+			</th>
+			<th>
+				<cms:svg file="../images/waze-logo.svg"/>
+				<cms:text constant="waze"/>
+			</th>
+		</tr>
+
+		<tr>
+			<td>
+				<svg>
+					<use 
+						href="#icon-gender" 
+						xlink:href="site/images/site-icons.svg#icon-gender" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>				
+				<cms:text constant="audience"/>
+			</td>
+			<td>
+				<svg>
+					<use 
+						href="#icon-checkmark" 
+						xlink:href="site/images/site-icons.svg#icon-checkmark" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>
+			</td>
+			<td>
+				<svg>
+					<use 
+						href="#icon-checkmark" 
+						xlink:href="site/images/site-icons.svg#icon-checkmark" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>				
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<svg>
+					<use 
+						href="#icon-location" 
+						xlink:href="site/images/site-icons.svg#icon-location" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>					
+				<cms:text constant="area"/>
+			</td>
+			<td>
+				<svg>
+					<use 
+						href="#icon-checkmark" 
+						xlink:href="site/images/site-icons.svg#icon-checkmark" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>				
+			</td>
+			<td>
+				<svg>
+					<use 
+						href="#icon-checkmark" 
+						xlink:href="site/images/site-icons.svg#icon-checkmark" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>				
+			</td>
+		</tr>	
+		<tr>
+			<td>
+				<svg>
+					<use 
+						href="#icon-car" 
+						xlink:href="site/images/site-icons.svg#icon-car" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>				
+				<cms:text constant="navigation"/>
+			</td>
+			<td>
+				<svg class="ex_sign">
+					<use 
+						href="#icon-ex" 
+						xlink:href="site/images/site-icons.svg#icon-ex" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>				
+			</td>
+			<td>
+				<svg>
+					<use 
+						href="#icon-checkmark" 
+						xlink:href="site/images/site-icons.svg#icon-checkmark" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>				
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<svg>
+					<use 
+						href="#icon-calendar" 
+						xlink:href="site/images/site-icons.svg#icon-calendar" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>				
+				<cms:text constant="period"/>
+			</td>
+			<td><strong><cms:text constant="period_time"/></strong></td>
+			<td><strong><cms:text constant="period_time"/></strong></td>
+		</tr>
+		<tr>
+			<td>
+				<svg>
+					<use 
+						href="#icon-money" 
+						xlink:href="site/images/site-icons.svg#icon-money" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>					
+				<cms:text constant="cost"/>
+			</td>
+			<td><strong><cms:text constant="cost_facebook"/></strong></td>
+			<td><strong><cms:text constant="cost_waze"/></strong></td>
+		</tr>
+		<tr>
+			<td>
+				<svg>
+					<use 
+						href="#icon-performance" 
+						xlink:href="site/images/site-icons.svg#icon-performance" 
+						cms:eval="href,xlink:href"
+					/>
+				</svg>					
+				<cms:text constant="exposure"/>
+			</td>
+			<td><strong><cms:text constant="exposure_facebook"/></strong></td>
+			<td><strong><cms:text constant="exposure_waze"/></strong></td>
+		</tr>																																		
+	</table>	
+</document>

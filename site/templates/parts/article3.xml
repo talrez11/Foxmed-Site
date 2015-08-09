@@ -1,0 +1,12 @@
+<document>
+	<div  class="$params['text_id']" cms:eval="class">
+	<svg>
+		<use 
+			href="'#icon-'.$params['text_id']" 
+			xlink:href="'site/images/site-icons.svg#icon-'.$params['text_id']" 
+			cms:eval="href,xlink:href"
+		/>
+	</svg>
+	<cms:markdown param="content" multilanguage="yes"/>
+	</div>
+</document>
