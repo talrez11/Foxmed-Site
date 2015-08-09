@@ -1,3 +1,21 @@
 {
-    "site_title": "Foxmed-Site"
+    "site_title": "Foxmed-Site",
+    "phone":"072-2160643",
+    "form_title":"לפגישת ייעוץ ללא עלות התקשרו או השאירו פרטים:",
+    "send":"שלח פרטים",
+    "subject":"נושא / מדיית פרסום",
+    "facebook":"קידום ממוקד בפייסבוק",
+    "waze":"קידום ממוקד בפייסבוק וב-WAZE",
+    "audience":"מיקוד קהלים (גיל, מגדר, תחומי עניין)",
+    "area":"מיקוד לפי איזור",
+    "navigation":"ניווט לבית העסק",
+    "period":"תקופה",
+    "cost":"עלות",
+    "exposure":"כמות החשיפה",
+    "period_time":"14 יום רצוף",
+    "cost_facebook":" 4,990 ₪",
+    "cost_waze":"6,990 ₪",
+    "exposure_facebook":"חשיפה של 180-220 אלף",
+    "exposure_waze":"חשיפה של 200-240 אלף "
+
 }
