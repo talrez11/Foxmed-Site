@@ -15,6 +15,7 @@
 				<div class="menu">
 						<a href="javascript:void(0)" class="google"></a>
 						<a href="url_Make('', 'home')" class="logo" cms:eval="href"></a>
+						<cms:desktop>
 						<a
 							href="'tel:'.urlencode(Language::getText('phone'))"
 							cms:eval="href"
@@ -28,6 +29,22 @@
 									/>
 							</svg>
 						</a>
+						</cms:desktop>
+
+						<cms:mobile>
+							<a
+								href="'tel:'.urlencode(Language::getText('phone'))"
+								cms:eval="href"
+								class="phone"
+								>
+									<svg>
+										<use
+											href="#icon-phone"
+											xlink:href="site/images/site-icons.svg#icon-phone"
+											/>
+									</svg>
+								</a>							
+						</cms:mobile>
 				</div>
 			</header>
 
