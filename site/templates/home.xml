@@ -122,7 +122,7 @@
 							name="articles"
 							action="show"
 							text_id="header_article"
-							template="parts/article.xml"
+							template="parts/footer_article.xml"
 							/>
 					<a
 						href="'tel:'.urlencode(Language::getText('phone'))"
@@ -146,6 +146,11 @@
 							/>
 					</div>
 				</div>
+
+				<div class="copyright">
+					<span><cms:text constant="copyright"/></span>
+				</div>
+				
 			</footer>	
 
 		</body>
