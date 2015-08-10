@@ -5,6 +5,7 @@
 	<html lang="$language" cms:eval="lang">
 		<head>
 			<title><cms:text constant="site_title"/></title>
+			<cms:collection include="page_control"/>
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
@@ -98,7 +99,54 @@
 
 			<section class="table">	
 				<cms:template file="parts/table.xml"/>
-			</section>	
+				<cms:module
+					name="gallery"
+					action="show_group"
+					text_id="feature_images"
+					template="parts/gallery_group.xml"
+				/>
+
+				
+				<cms:module
+					name="articles"
+					action="show_group"
+					text_id="testimonials"
+					template="parts/show_article_list2.xml"
+				/>		
+
+			</section>
+
+			<footer>
+				<div class="footer_content">
+					<cms:module
+							name="articles"
+							action="show"
+							text_id="header_article"
+							template="parts/article.xml"
+							/>
+					<a
+						href="'tel:'.urlencode(Language::getText('phone'))"
+						cms:eval="href"
+						class="phone"
+						>
+						<cms:text constant="phone"/>
+						<svg>
+							<use
+								href="#icon-phone"
+								xlink:href="site/images/site-icons.svg#icon-phone"
+								/>
+						</svg>						
+					</a>
+					<div class="form_wrap">
+						<p><cms:text constant="form_title"/></p>
+						<cms:module
+							name="contact_form"
+							action="show"
+							text_id="contact"
+							/>
+					</div>
+				</div>
+			</footer>	
 
 		</body>
 	</html>

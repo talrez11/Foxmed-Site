@@ -1,0 +1,53 @@
+/**
+ * Footer Style Sheet
+ * Foxmed-Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ footer {
+ 	display: block;
+ 	text-align: center;
+ }
+
+ footer div.footer_content {
+ 	display: block;
+ 	text-align: center;
+ 	background-image: url(../images/footer-background-01.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: center top;
+ 	background-size: 1920px 700px;
+ 	min-height: 700px;
+ 	position: relative;
+ }
+
+div.footer_content a.phone {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 60px;
+	padding-right: 60px;
+	color: white;
+	text-decoration: none;
+	background-color: #16a61e;
+	border-radius: 8px;
+	font-size: 2.2em;
+	line-height: 2.2em;
+	font-weight: 700;
+	transition:all 0.3s;
+}
+
+div.footer_content a.phone:hover {
+	background-color: #2ecc71;
+}
+
+div.footer_content a.phone svg {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 5px;
+	width: 40px;
+	height: 40px;
+	fill:white;
+}

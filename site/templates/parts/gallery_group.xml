@@ -1,0 +1,11 @@
+<document>
+
+	<p><cms:var param="name" multilanguage="yes"/></p>
+		<cms:module
+			name="gallery"
+			action="show_image_list"
+			group="feature_images"
+			template="parts/feature_images.xml"
+			/>	
+
+</document>
