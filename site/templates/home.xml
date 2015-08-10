@@ -69,16 +69,31 @@
 								/>
 						</svg>						
 					</a>
-					<div class="form_wrap">
-						<p><cms:text constant="form_title"/></p>
-						<cms:module
-							name="contact_form"
-							action="show"
-							text_id="contact"
-							/>
-					</div>
+
+					<cms:desktop>
+						<div class="form_wrap">
+							<p><cms:text constant="form_title"/></p>
+							<cms:module
+								name="contact_form"
+								action="show"
+								text_id="contact"
+								/>
+						</div>
+					</cms:desktop>
+
 
 			</section>
+
+					<cms:mobile>
+						<div class="form_wrap">
+							<p><cms:text constant="form_title"/></p>
+							<cms:module
+								name="contact_form"
+								action="show"
+								text_id="contact"
+								/>
+						</div>
+					</cms:mobile>
 
 			<section class="clients">
 				<cms:module
@@ -115,7 +130,14 @@
 			</section>
 
 			<section class="table">	
-				<cms:template file="parts/table.xml"/>
+				<cms:desktop>
+					<cms:template file="parts/table.xml"/>
+				</cms:desktop>
+
+				<cms:mobile>
+					<cms:template file="parts/table_mobile.xml"/>
+				</cms:mobile>	
+
 				<cms:module
 					name="gallery"
 					action="show_group"
@@ -154,6 +176,19 @@
 								/>
 						</svg>						
 					</a>
+					<cms:desktop>
+						<div class="form_wrap">
+							<p><cms:text constant="form_title"/></p>
+							<cms:module
+								name="contact_form"
+								action="show"
+								text_id="contact"
+								/>
+						</div>
+					</cms:desktop>
+				</div>
+
+				<cms:mobile>
 					<div class="form_wrap">
 						<p><cms:text constant="form_title"/></p>
 						<cms:module
@@ -162,7 +197,7 @@
 							text_id="contact"
 							/>
 					</div>
-				</div>
+				</cms:mobile>
 
 				<div class="copyright">
 					<span><cms:text constant="copyright"/></span>
