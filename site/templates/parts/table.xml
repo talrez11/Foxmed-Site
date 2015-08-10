@@ -7,7 +7,7 @@
 			<th>
 				<svg>
 					<use 
-						href="#icon-facebook" 
+						href="site/images/site-icons.svg#icon-facebook" 
 						xlink:href="site/images/site-icons.svg#icon-facebook" 
 						cms:eval="href,xlink:href"
 					/>
@@ -24,7 +24,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-gender" 
+						href="site/images/site-icons.svg#icon-gender" 
 						xlink:href="site/images/site-icons.svg#icon-gender" 
 						cms:eval="href,xlink:href"
 					/>
@@ -34,7 +34,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-checkmark" 
+						href="site/images/site-icons.svg#icon-checkmark" 
 						xlink:href="site/images/site-icons.svg#icon-checkmark" 
 						cms:eval="href,xlink:href"
 					/>
@@ -43,7 +43,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-checkmark" 
+						href="site/images/site-icons.svg#icon-checkmark" 
 						xlink:href="site/images/site-icons.svg#icon-checkmark" 
 						cms:eval="href,xlink:href"
 					/>
@@ -54,7 +54,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-location" 
+						href="site/images/site-icons.svg#icon-location" 
 						xlink:href="site/images/site-icons.svg#icon-location" 
 						cms:eval="href,xlink:href"
 					/>
@@ -64,7 +64,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-checkmark" 
+						href="site/images/site-icons.svg#icon-checkmark" 
 						xlink:href="site/images/site-icons.svg#icon-checkmark" 
 						cms:eval="href,xlink:href"
 					/>
@@ -73,7 +73,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-checkmark" 
+						href="site/images/site-icons.svg#icon-checkmark" 
 						xlink:href="site/images/site-icons.svg#icon-checkmark" 
 						cms:eval="href,xlink:href"
 					/>
@@ -84,7 +84,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-car" 
+						href="site/images/site-icons.svg#icon-car" 
 						xlink:href="site/images/site-icons.svg#icon-car" 
 						cms:eval="href,xlink:href"
 					/>
@@ -94,7 +94,7 @@
 			<td>
 				<svg class="ex_sign">
 					<use 
-						href="#icon-ex" 
+						href="site/images/site-icons.svg#icon-ex" 
 						xlink:href="site/images/site-icons.svg#icon-ex" 
 						cms:eval="href,xlink:href"
 					/>
@@ -103,7 +103,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-checkmark" 
+						href="site/images/site-icons.svg#icon-checkmark" 
 						xlink:href="site/images/site-icons.svg#icon-checkmark" 
 						cms:eval="href,xlink:href"
 					/>
@@ -114,7 +114,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-calendar" 
+						href="site/images/site-icons.svg#icon-calendar" 
 						xlink:href="site/images/site-icons.svg#icon-calendar" 
 						cms:eval="href,xlink:href"
 					/>
@@ -128,7 +128,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-money" 
+						href="site/images/site-icons.svg#icon-money" 
 						xlink:href="site/images/site-icons.svg#icon-money" 
 						cms:eval="href,xlink:href"
 					/>
@@ -142,7 +142,7 @@
 			<td>
 				<svg>
 					<use 
-						href="#icon-performance" 
+						href="site/images/site-icons.svg#icon-performance" 
 						xlink:href="site/images/site-icons.svg#icon-performance" 
 						cms:eval="href,xlink:href"
 					/>
