@@ -284,7 +284,7 @@ section.features div {
 section.features div:before {
     content: "";
     position: absolute;
-    top: -45px;
+    top:-45px;
     left: 50%;
     margin-left: -75px;
     width: 150px;
@@ -473,7 +473,6 @@ section.table > a {
 	overflow: hidden;
 	position: relative;
 	transition:all 0.3s;
-
 }
 
 section.table > a:hover {
