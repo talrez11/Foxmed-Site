@@ -284,14 +284,14 @@ section.features div {
 section.features div:before {
     content: "";
     position: absolute;
-    top: -35px;
+    top: -45px;
     left: 50%;
-    margin-left: -85px;
-    width: 170px;
-    height: 170px;
+    margin-left: -75px;
+    width: 150px;
+    height: 150px;
     background-color: rgba(255, 255, 255, 0.3);
     border-radius: 50%;
-    transition:all 0.3s;
+    transition: all 0.3s;
 }
 
 section.features div:hover:before {
@@ -299,15 +299,15 @@ section.features div:hover:before {
 } 
 
 section.features div svg {
-	display: block;
-	margin-bottom: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100px;
-	height: 100px;
-	fill:white;
-	position: relative;
-	transition:all 0.3s;
+    display: block;
+    margin-bottom: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    fill: white;
+    position: relative;
+    transition: all 0.3s;
 
 }
 
@@ -337,7 +337,7 @@ section.why_us article {
     display: block;
     margin-top: 50px;
     text-align: right;
-    width: 50%;	
+    width: 45%;	
 }
 
 section.why_us article h2 {
@@ -477,7 +477,7 @@ section.table > a {
 }
 
 section.table > a:hover {
-	background-size: 110% auto;
+	background-size: 120% auto;
 }
 
 section.table > a span {
@@ -588,7 +588,96 @@ a.btn_next {
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
     z-index: 50;
-}	
+}
+
+/*Tablet Version*/
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+
+div.menu {
+	width: auto;
+}
+
+div.menu a.phone {
+	left: 10px;
+}
+
+div.menu a.google {
+	right:10px;
+}
+
+section.top_site h1 {
+	font-size: 4em;
+}
+
+section.clients a {
+	width: 150px;
+	height: 99px;
+}
+
+section.clients {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+section.features div {
+	width: 160px;
+}
+
+section.features div p {
+	font-size: 1em;
+}
+
+section.why_us {
+	padding-right: 20px;
+	padding-left: 20px;
+	min-height: 560px;
+}
+
+table th {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+table tr td {
+	font-size: 1em;
+}
+
+table td:first-of-type svg {
+	padding-left: 20px;
+}
+
+table tr td:first-of-type {
+	padding-right: 5px;
+}
+
+table td svg {
+	width: 25px;
+	height: 25px;
+}
+
+section.table > a {
+	width: 330px;
+	height: 220px;
+}
+
+a.btn_previous {
+	right:180px;
+}
+
+a.btn_next {
+	left:180px;
+}
+
+footer div.footer_content h2 {
+	font-size: 3.4em;
+}
+
+footer div.footer_content > p {
+	font-size: 1.6em;
+}
+
+}
 
 
 
