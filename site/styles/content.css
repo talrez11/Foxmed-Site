@@ -505,9 +505,9 @@ section.table > h2 {
 }
 
 div.testimonials {
-	display: block;
-	position: relative;
-	min-height: 400px;
+    display: block;
+    position: relative;
+    min-height: 330px;
 }
 
 div.testimonials article {
@@ -546,16 +546,16 @@ div.testimonials article p:before {
 }
 
 div.testimonials article h3 {
-	display: block;
-    padding-right: 20px;
+    display: block;
+    padding-right: 135px;
     color: #34495e;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 a.btn_previous {
 	display: inline-block;
 	position: absolute;
-	top: 18%;
+	top: 22%;
 	right: 250px;
 	width: 50px;
 	height: 50px;
@@ -574,7 +574,7 @@ a.btn_previous {
 a.btn_next {
     display: inline-block;
     position: absolute;
-   	top: 18%;
+   	top: 22%;
     left: 250px;
     width: 50px;
     height: 50px;
