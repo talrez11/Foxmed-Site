@@ -121,3 +121,15 @@ footer div.copyright span a {
 footer div.copyright span a:hover {
 	color:#5bc2d8;
 }
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+
+footer div.footer_content h2 {
+	font-size: 3em;
+}
+
+footer div.footer_content > p {
+	font-size: 1.5em;
+}
+
+}

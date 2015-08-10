@@ -594,6 +594,53 @@ a.btn_next {
 
 @media all and (max-width: 1024px) and (min-width: 768px) {
 
+section.top_site {
+	background-image: url(../images/ipad-header-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+}
+
+section.top_site h1 {
+	padding-top: 100px;
+}
+
+section.top_site > p {
+	width: 500px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+div.form_wrap {
+    background-color: rgba(255, 255, 255, 0.8);	
+}
+
+div.form_wrap p {
+	padding-bottom: 10px;
+}
+
+section.clients {
+    background-image: url(../images/ipad-our-offer-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 100% auto;
+}
+
+section.clients article h2 {
+	font-size: 2.2em;
+}
+
+section.features {
+    display: block;
+    text-align: center;
+    padding: 50px calc((100vw - 1200px) / 2);
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: inherit;
+    background-size: auto 650px;
+}
+
 div.menu {
 	width: auto;
 }
@@ -629,9 +676,23 @@ section.features div p {
 }
 
 section.why_us {
-	padding-right: 20px;
-	padding-left: 20px;
-	min-height: 560px;
+    display: block;
+    text-align: right;
+    padding: 20px calc((100vw - 1200px) / 2);
+    padding-right: 20px;
+    padding-bottom: 0px;
+    background-image: url(../images/why-us.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 400px;
+    min-height: 380px;
+}
+
+section.why_us article {
+    display: block;
+    margin-top: 20px;
+    text-align: right;
+    width: 45%;
 }
 
 table th {
@@ -639,26 +700,33 @@ table th {
 	padding-right: 40px;
 }
 
+table th:first-of-type {
+	font-size: 1.5em;
+}
+
 table tr td {
 	font-size: 1em;
 }
 
 table td:first-of-type svg {
-	padding-left: 20px;
+	margin-left: 20px;
 }
 
 table tr td:first-of-type {
-	padding-right: 5px;
 }
 
 table td svg {
-	width: 25px;
-	height: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25px;
+    height: 25px;
+    fill: #42bc9b;
 }
 
 section.table > a {
-	width: 330px;
-	height: 220px;
+	width: 320px;
+	height: 215px;
 }
 
 a.btn_previous {
@@ -669,13 +737,7 @@ a.btn_next {
 	left:180px;
 }
 
-footer div.footer_content h2 {
-	font-size: 3.4em;
-}
 
-footer div.footer_content > p {
-	font-size: 1.6em;
-}
 
 }
 
