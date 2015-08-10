@@ -1,0 +1,605 @@
+/**
+ * Main Mobile Style Sheet
+ * Foxmed-Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+  h1,h2,h3,h4,h5,h6,p {
+ 	margin: 0px;
+ }
+
+
+ section.top_site {
+ 	display: block;
+ 	text-align: center;
+ 	padding-bottom: 100px;
+ 	background-color: #d6d6d9;
+ 	background-image: url(../images/mobile-header-background.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: center bottom;
+ 	background-size:100% auto;
+ 	min-height: 453px; 
+ 	position: relative;
+}
+
+section.top_site h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    width: 95%;
+    color: #405fb0;
+    font-weight: bold;
+    font-size: 1.9em;
+ } 
+
+
+section.top_site > p {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;;
+    color: #405fb0;	
+}
+
+section.top_site a.phone {
+    display: inline-block;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: #16a61e;
+    border-radius: 8px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight: 700;
+    transition: all 0.3s
+}
+
+section.top_site a.phone:hover {
+	background-color: #2ecc71;
+}
+
+section.top_site a.phone svg {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 5px;
+	width: 30px;
+	height: 30px;
+	fill:white;
+}
+
+div.form_wrap {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    background-color:#2c3e50;
+}
+
+div.form_wrap p  {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 10px;
+	color:white;
+	width: 90%;
+
+}
+
+form {
+	display: block;
+}
+
+form label {
+	display:block;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+form label:before {
+	content: "";
+	position: absolute;
+	top:5px;
+	right:0px;
+	background-image: url(../images/form-icons-sprite.svg);
+	background-repeat: no-repeat;
+	background-position: -100px 0px;
+	background-size:150px 50px;
+	width: 50px;
+	height: 50px;
+}
+
+form label:nth-of-type(2):before {
+	background-position: -50px 0px;
+}
+
+form label:nth-of-type(3):before {
+	background-position: 0px 0px;
+}
+
+form label input {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	border:1px solid #bcc2c6;
+	border-left: none;
+	color:black;
+  	background-color:white;
+	transition:all 0.3s;
+	width:calc(95% - 40px);
+}
+
+
+
+form label input:focus {
+	border:1px solid #2ecc71;
+	border-left: none;
+}
+
+::-webkit-input-placeholder {
+   color: black;
+   transition:all 0.3s;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+
+:-ms-input-placeholder {  
+   color: black;  
+}
+
+form div.controls {
+	display:block;
+}
+
+form div.controls button {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 40px;
+	padding-left: 40px;
+	border:none;
+	color:white;
+	border:1px solid #2ecc71 ;
+  	background-color:#16a61e;
+	transition:all 0.3s;
+	cursor:pointer;
+	width: 95%;	
+}
+
+form div.controls button:hover {
+	background-color: #2ecc71;
+}
+
+section.clients {
+	display: block;
+	text-align: center;	
+	padding:0px calc((100vw - 1200px) / 2);
+    padding-top: 20px;
+    padding-bottom: 250px;	
+	background-color: white;
+	background-image: url(../images/mobile-our-offer-background.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size:100% auto;
+	min-height: 254px; 
+}
+
+section.clients a {
+	display: inline-block;
+	vertical-align: top;
+	width: 100px;
+	height: 65px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+section.clients article {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	width: 95%;
+}
+
+section.clients article h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-bottom: 20px;
+	color: #405fb0;
+	width: 95%;
+}
+
+section.clients article p {
+	display: block;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 10px;
+	position: relative;
+}
+
+section.clients article p:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	margin-left: -40px;
+	background-image: url(../images/icons-sprite.svg);
+	background-repeat: no-repeat;
+	background-position:0px 0px;
+	background-size: 240px 80px;
+	width: 80px;
+	height: 80px;
+}
+
+section.clients article p:nth-of-type(2):before {
+	background-position:-80px 0px;
+}
+
+section.clients article p:nth-of-type(3):before {
+	background-position:-160px 0px;
+}
+
+section.features {
+	display: block;
+	text-align: center;
+	padding:20px calc((100vw - 1200px) / 2);
+	background-image: url(../images/bg_mobile.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+	min-height: 1380px;
+}
+
+section.features h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 80px;
+	color:white;
+	font-weight: 700;
+	width: 95%;
+}
+
+section.features div {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 70px;
+	text-align: center;
+	width: 200px;
+	position: relative;
+}
+
+section.features div:before {
+    content: "";
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    margin-left: -75px;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 50%;
+    transition: all 0.3s;
+}
+
+section.features div:hover:before {
+	background-color: white;
+}
+
+section.features div svg {
+    display: block;
+    margin-bottom: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+    fill: white;
+    position: relative;
+    transition: all 0.3s;
+
+}
+
+section.features div:hover svg {
+	fill: #405fb0;
+}
+
+section.features div p {
+	display: block;
+	font-size: 1.1em;
+	color:white;
+	font-weight: bold;
+}
+
+section.why_us {
+	display: block;
+	text-align: right;
+	background-image: url(../images/mobile-why-us.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size:100% auto;
+	min-height: 453px; 
+}
+
+section.why_us article {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: right;
+    width: 95%;	
+}
+
+section.why_us article h2 {
+	display: block;
+	color:#405fb0;
+}
+
+section.why_us article p {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#34495e;
+}
+
+section.table {
+	display: block;
+	text-align: center;
+}
+
+table{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+table th {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color:#3d5a98;
+	color:white;	
+	width:100%;
+}
+
+table th svg {
+	display:inline-block;
+	vertical-align: middle;
+	padding-bottom: 5px;
+	padding-right: 10px;
+	width: 100px;
+	height: 30px;
+	fill:white;
+}
+
+table tr td:first-of-type {
+	text-align: right;
+	padding-right: 10px;
+	width: 65%;
+}
+
+table td:first-of-type svg {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10px;
+	fill: #34495e;
+}
+
+table td svg {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20px;
+	height: 20px;
+	fill: #42bc9b;
+}
+
+table td svg.ex_sign {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20px;
+	height: 20px;
+	fill:#e74c3c;
+}
+
+table tr:nth-child(even) {
+	background-color:#e1e5e6; 
+}
+
+table tr:nth-child(odd) {
+	background-color:#ecf0f1; 
+}
+
+table tr td {
+	padding-top:15px;
+	padding-bottom: 15px;
+	font-size: 0.8em;
+	width: 35%; 
+}
+
+table tr td strong {
+	font-size: 0.8em;
+}
+
+table:last-of-type th {
+	background-color:#f2f2f2;
+	color:#34495e;
+}
+
+table:last-of-type th svg {
+    padding-right: 0px;
+    padding-bottom: 0px;
+    height: 40px;
+    width: 80px;
+}
+
+section.table > p {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top:20px;
+	padding-bottom: 20px;
+	color: #34495e;
+	width: 90%;
+}
+
+section.table > a {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 100% auto;
+	width: 320px;
+	height: 215px;
+	position: relative;
+	text-decoration: none;
+	color:#34495e;
+	overflow: hidden;
+	position: relative;
+	transition:all 0.3s;
+}
+
+section.table > a:hover {
+	background-size: 120% auto;
+}
+
+section.table > a span {
+    display: block;
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 1.2em;
+    transition:all 0.3s;
+}
+
+section.table > a:hover span {
+	left: 100%;
+}
+
+section.table > h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #405fb0;
+	width: 95%;	
+}
+
+div.testimonials {
+    display: block;
+    position: relative;
+    min-height: 230px;
+}
+
+div.testimonials article {
+    display: block;
+    position: absolute;
+    top:0px;
+    left: 50%;
+    margin-left: -125px;	
+    width: 250px;
+    opacity: 0;
+    transition:all 0.3s;
+}
+
+div.testimonials article.visible {
+	opacity: 1;
+}
+
+div.testimonials article p {
+	display: block;
+	padding:15px 20px;
+	background-color: #ecf0f1;
+	border-radius: 8px;
+	position:relative;
+
+}
+
+div.testimonials article p:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    right: 20%;
+    width: 0;
+    height: 0;
+    border-top: 40px solid #ecf0f1;
+    border-left: 40px solid transparent;
+}
+
+div.testimonials article h3 {
+    display: block;
+    padding-right: 85px;
+    padding-top: 5px;
+    color: #34495e;
+    font-size: 0.9em;
+}
+
+a.btn_previous {
+	display: inline-block;
+	position: absolute;
+	top: 18%;
+	right: 15px;
+	width: 30px;
+	height: 30px;
+	border: 0px solid #405fb0;
+	border-right-width: 5px;
+	border-top-width: 5px;
+	-webkit-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.1));
+	-moz-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .1));
+	-o-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .1));
+	filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .1));
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	z-index: 50;
+}
+
+a.btn_next {
+    display: inline-block;
+    position: absolute;
+    top: 18%;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+    border: 0px solid #405fb0;
+    border-left-width: 5px;
+    border-bottom-width: 5px;
+    -webkit-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .1));
+    -moz-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .1));
+    -o-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .1));
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .1));
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 50;
+}
+
+
