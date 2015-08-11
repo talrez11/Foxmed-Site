@@ -1,3 +1,8 @@
 <document>
-	<a href="javascript:void(0)" style="'background-image: url('.$params['image'].');'" cms:eval="style"> </a>
+	<a 
+		href="javascript:void(0)" 
+		style="'background-image: url('.gallery::getThumbnailById($params['id'],null, 140, Thumbnail::CONSTRAIN_WIDTH).');'"
+		cms:eval="style"
+		>
+	</a>
 </document>
