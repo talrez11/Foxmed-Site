@@ -7,6 +7,7 @@
 			<title><cms:text constant="site_title"/></title>
 			<cms:collection include="page_control"/>
 			<cms:module name="head_tag" action="print_tag"/>
+			<cms:raw file="parts/gtm.txt"/>
 		</head>
 
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
@@ -43,7 +44,7 @@
 											xlink:href="site/images/site-icons.svg#icon-phone"
 											/>
 									</svg>
-								</a>							
+								</a>
 						</cms:mobile>
 				</div>
 			</header>
@@ -67,7 +68,7 @@
 								href="#icon-phone"
 								xlink:href="site/images/site-icons.svg#icon-phone"
 								/>
-						</svg>						
+						</svg>
 					</a>
 
 					<cms:desktop>
@@ -108,7 +109,7 @@
 						action="show"
 						text_id="offer_article"
 						template="parts/article2.xml"
-						/>	
+						/>
 			</section>
 
 			<section class="features">
@@ -129,14 +130,14 @@
 					/>
 			</section>
 
-			<section class="table">	
+			<section class="table">
 				<cms:desktop>
 					<cms:template file="parts/table.xml"/>
 				</cms:desktop>
 
 				<cms:mobile>
 					<cms:template file="parts/table_mobile.xml"/>
-				</cms:mobile>	
+				</cms:mobile>
 
 				<cms:module
 					name="gallery"
@@ -145,13 +146,13 @@
 					template="parts/gallery_group.xml"
 				/>
 
-				
+
 				<cms:module
 					name="articles"
 					action="show_group"
 					text_id="testimonials"
 					template="parts/show_article_list2.xml"
-				/>		
+				/>
 
 			</section>
 
@@ -174,7 +175,7 @@
 								href="#icon-phone"
 								xlink:href="site/images/site-icons.svg#icon-phone"
 								/>
-						</svg>						
+						</svg>
 					</a>
 					<cms:desktop>
 						<div class="form_wrap">
@@ -202,8 +203,8 @@
 				<div class="copyright">
 					<span><cms:text constant="copyright"/></span>
 				</div>
-				
-			</footer>	
+
+			</footer>
 
 		</body>
 	</html>

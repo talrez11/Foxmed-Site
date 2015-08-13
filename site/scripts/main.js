@@ -56,6 +56,14 @@ Site.on_load = function() {
 	testimonial.attachPreviousControl($('a.btn_previous'))
 	testimonial.attachNextControl($('a.btn_next'))
 	.setWrapAround(true);
+
+	// handle analytics event
+	$('form').on('analytics-event', function(event, data) {
+		if (!data.error)
+			dataLayer.push({
+            	'event':'leadSent'
+            });
+	});
 };
 
 
