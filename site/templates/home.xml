@@ -14,7 +14,7 @@
 			<header>
 				<cms:svg file="../images/site-icons.svg"/>
 				<div class="menu">
-						<a href="javascript:void(0)" class="google"></a>
+						<span class="google"></span>
 						<a href="url_Make('', 'home')" class="logo" cms:eval="href"></a>
 						<cms:desktop>
 						<a
