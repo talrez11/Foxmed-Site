@@ -27,7 +27,7 @@
     position: relative;
 }
 
-div.menu a.google {
+div.menu span.google {
 	display:inline-block;
 	vertical-align: middle;
 	position: absolute;
